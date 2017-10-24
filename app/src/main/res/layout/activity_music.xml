@@ -9,15 +9,15 @@
 
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
+        android:id="@+id/ukuleleImageView"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:contentDescription="@string/ukulele_image_alt_text"
         app:srcCompat="@drawable/ukulele" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/ukuleleButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="playMedia"
@@ -25,7 +25,7 @@
         android:textSize="19sp" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/ipuImageView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -33,7 +33,7 @@
         app:srcCompat="@drawable/ipu" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/ipuButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="playMedia"
@@ -41,14 +41,15 @@
         android:textSize="19sp" />
 
     <VideoView
-        android:id="@+id/videoView"
+        android:id="@+id/hulaVideoView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
         android:contentDescription="@string/hula_image_alt_text" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/hulaButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="playMedia"

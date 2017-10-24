@@ -7,8 +7,15 @@ import android.support.v7.app.AppCompatActivity;
 import java.util.Timer;
 import java.util.TimerTask;
 
+/**
+ * Displays a splash screen before the application begins
+ */
 public class SplashActivity extends AppCompatActivity {
 
+    /**
+     * Creates an instance of <code>SplashActivity</code> in the view
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,7 +25,7 @@ public class SplashActivity extends AppCompatActivity {
         TimerTask task = new TimerTask() {
             @Override
             public void run() {
-                // Finish the current SplachActivity
+                // Finish the current SplashActivity
                 finish();
 
                 // Launch the MusicActivity
