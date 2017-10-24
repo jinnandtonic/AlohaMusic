@@ -2,6 +2,7 @@ package edu.orangecoastcollege.cs273.alohamusic;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 public class MusicActivity extends AppCompatActivity {
 
@@ -9,5 +10,9 @@ public class MusicActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_music);
+    }
+
+    public void playMedia(View view) {
+
     }
 }
