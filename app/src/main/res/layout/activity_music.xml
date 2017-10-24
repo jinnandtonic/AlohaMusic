@@ -19,9 +19,10 @@
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="@string/ukulele_button_play_text" />
+        android:layout_height="wrap_content"
+        android:onClick="playMedia"
+        android:text="@string/ukulele_button_play_text"
+        android:textSize="19sp" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -34,21 +35,23 @@
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="@string/ipu_button_play_text" />
+        android:layout_height="wrap_content"
+        android:onClick="playMedia"
+        android:text="@string/ipu_button_play_text"
+        android:textSize="19sp" />
 
     <VideoView
         android:id="@+id/videoView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:contentDescription="@string/hula_image_alt_text"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:contentDescription="@string/hula_image_alt_text" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="@string/hula_button_watch_text" />
+        android:layout_height="wrap_content"
+        android:onClick="playMedia"
+        android:text="@string/hula_button_watch_text"
+        android:textSize="19sp" />
 </LinearLayout>
